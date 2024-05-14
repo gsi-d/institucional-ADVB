@@ -28,11 +28,10 @@
             <li><a href="index.html#missao">Missão</a></li>
             <li><a href="sobre.html">Sobre</a></li>
             <li><a href="contato.html">Fale Conosco</a></li>
-            <li><img src="img/Facebook.png" alt="logo_facebook" height="25px"></li>
-            <li><img src="img/Instagram.png" alt="logo_insta" height="25px"></li>
+            <li><a href="" target="_blank" class="face-insta"><img src="img/Instagram.png" alt=""></a></li>
         </ul>
     </header>
-    <h1 style="background-color: #43995C; text-align: center; padding: 1%; margin-left: 30%; margin-right: 40%; color: #fff;">Fale conosco</h1>
+    <h1>Fale conosco</h1>
     <div class="form-container">
         <form action="#">
             <div class="column">
@@ -41,43 +40,37 @@
                     <input type="text" id="nome" name="nome">
                 </div>
                 <div class="form-group">
-                    <label for="email">E-mail *</label>
+                    <label for="email">E-mail</label>
                     <input type="email" id="email" name="email" required>
                 </div>
                 <div class="form-group">
-                    <label for="mensagem">Mensagem *</label>
-                    <textarea id="mensagem" name="mensagem" required></textarea>
+                    <label for="assunto">Assunto </label>
+                    <input id="assunto" name="assunto" required></input>
                 </div>
             </div>
-            <div class="column">
-                <div class="form-group">
-                    <label for="sobrenome">Sobrenome</label>
-                    <input type="text" id="sobrenome" name="sobrenome">
-                </div>
-                <div class="form-group">
-                    <label for="assunto">Assunto</label>
-                    <input type="text" id="assunto" name="assunto">
-                </div>
+            <div class="form-group">
+                <label for="mensagem">Mensagem</label>
+                <textarea id="mensagem" name="mensagem" required></textarea>
+            
             </div>
+            
             <button type="submit">Enviar</button>
         </form>
     </div>
 
     <br><br>
     <footer>
-            <div class="menu_footer">
-                <ul>
-                    <li><img src="img/Logo.png" alt="logo_advb" height="90px"></li>
-                    <li>Rua Germano Schaefer, nº 10, Apto. 203 - Centro 1 - Brusque - SC - 88350-330</li>
-                </ul>
-            </div>
-            <div class="main">
-                <ul>
-                    <li id="linha_footer"><img src="img/Facebook.png" alt="logo_facebook" style="padding-right: 15%;"><img src="img/Instagram.png" alt="logo_insta"></li>
-                    <li>Fone: (47) 9 9921 - 8292</li>
-                    <li> Fone: (47) 3251 - 1833</li>
-                </ul>
-            </div>
-    </footer>
+        <div class="menu_footer">
+            <img src="img/Logo.png" alt="logo_advb" height="90px"></li>
+            <iframe class="footer_maps" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14207.251723329755!2d-48.9162213!3d-27.0991938!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94df479edcb6af4b%3A0xd7e4bd6e968a96cd!2sAssocia%C3%A7%C3%A3o%20dos%20Deficientes%20Visuais%20de%20Brusque-ADVD!5e0!3m2!1spt-BR!2sbr!4v1711058489556!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="main">
+            <ul>
+                <li id="linha_footer"><a href="" target="_blank" class="face-insta"><img src="img/Instagram.png" alt="logo_insta"></a></li>
+                <li>Sidnei Pavesi - (47) 9 9921 - 8292</li>
+                <li>Lucimara - (47) 3251 - 1833</li>
+            </ul>
+        </div>
+</footer>
 </body>
 </html>

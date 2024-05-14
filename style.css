@@ -19,22 +19,30 @@ body {
     background-color: #28703C;
     float: left;
     width: 100%;
+    margin-top: 6%;
 }* {
     box-sizing: border-box;
 }.menu_footer {
+    display: flex;
     width: 65%;
     float: left;
     padding: 15px;
+    align-items: center;
 }.main {
     width:35%;
     float: left;
     padding: 15px;
-}.menu_footer li {
+}.menu_footer p {
     list-style-type: none;
     color: #fff;
     font-size: large;
     line-height: 250%;
     padding-left: 3%;
+}.footer_maps {
+    width: 350px;
+    height: 200px;
+    margin-left: 250px;
+    border-radius: 15px;
 }.main li {
     text-align: right;
     list-style-type: none;
@@ -45,6 +53,8 @@ body {
     line-height: 100%;
 }#linha_footer {
     line-height: 450%;
+}.face-insta {
+    margin-top: 20px;
 }.container {
     position: relative;
     text-align: center;
@@ -95,6 +105,10 @@ body {
     margin-left: 5%;
     padding-right: 3%;
     text-align: justify;
+    width: 170px;
+}.btn-ferra {
+    font-size: 30px;
+    color: #28703C;
 }.green-box {
     background-color: #28703C;
     width: 630px;
@@ -109,23 +123,48 @@ body {
     top: 40%; 
     left: 50%; 
     transform: translate(-50%, -50%);
-}.green-rectangle {
-    background-color: #28703C;
-    width: 500px;
-    height: 100px;
+    border-radius: 10px;
+}.volunt-p {
+    font-size: 40px;
+    margin: 110px;
+    font-weight: bold;
+    margin-top: 90px;
+}
+.elemento {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #ffffff;
+}
+.elemento a {
+    text-align: center;
+    color: #fff;
+}
+.btn-1 {
+    border: none;
+    color: #fff;
+    justify-content: center;
+    font-size: 30px;
+    text-align: center;
+    background-color: #28703C;
+    width: 500px;
+    height: 100px;
     position: absolute; 
     top: 80%; 
     left: 50%; 
     transform: translate(-50%, -50%);
-}h1{
+    border-radius: 10px;
+    font-weight: bold;
+}
+.btn-1:hover {
+    background-color: #3D8551;
+    transition: 0.5s;
+}
+h1{
     color: #265935;
 }h2{
     font-weight: bold;
-}p{
+}
+p{
     text-align: justify;
     padding-top: 3%;
 }#virtualvision{
@@ -134,23 +173,46 @@ body {
     margin-top: 5%;
 }.virtual{
     text-align: center;
-    margin: 8%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 20px;
+    margin-left: 100px;
 }.contain{
     display: flex;
     justify-content: space-between;
     background-color: #E6E6E6;
 }.nvda{
     padding: 5%;
-}#freedom{
+}.nvda img {
+    width:170px;
+    margin-left: 5%;
+    float: right;
+}
+#freedom{
     background-color: #E6E6E6;
     padding: 5%;
-}.unifebe{
+}.free-div {
+    float: left;
+    margin-top: 35px;
+    margin-right: 40px;
+    font-size: 20px
+}
+
+.unifebe{
     text-align: center;
     padding: 4%;
 }.conta{
     display: flex;
-    justify-content: space-between;
-}.drive{
+    justify-content: center;
+    margin: 100px;
+}
+
+.conta img {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.drive{
     margin: 4%;
 }.docs{
     display: flex;
@@ -168,36 +230,44 @@ body {
     display: flex;
     justify-content: space-between;
 }#corpo {
-    margin: 50px 150px;
+    max-width: 500px;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(253, 251, 251, 0.1);
+    background-color: #337748;
+    margin-left: 33%;
+    align-items: center;
+    display: block;
 }#formulario {
     text-align: left;
+    display: block;
     margin: 0 0px;
-}#formulario .direita {
-    float: right;
-    width:50%;
-}#formulario .esquerda {
-    float: left;
-    width:50%;
-}#formulario label {
+}
+#formulario label {
     line-height: 50px;
-    text-align:left;
+    text-align:center;
     color:#fff;
 }#formulario input {
-    background-color: transparent;
-    border-top-color: transparent;
-    border-left-color: transparent; 
-    border-right-color: transparent;
-    border-bottom-color: #fff;   
-    color: #fff;
-}#formulario .botao {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+#formulario .botao {
     cursor: pointer;
-    color: #FFF;
-    background-color: #43995C;
+    color: #43995c;
+    background-color: white;
     padding: 1%;
     font-size: larger;
-    margin-top: 3%;
-    border-bottom-color: transparent;
-}#formulario .botao:hover {
+    border-bottom-color:#43995C;
+    border: 1px solid white;
+    border-radius: 4px;
+    flex: 5;
+    width: 20%;
+    margin-inline: 160px;
+    
+}
+#formulario .botao:hover {
     background-color: #265935;
 }
 #seçao1{
@@ -220,7 +290,7 @@ body {
     font-size: 70px;
     color: #000;
     text-align: left;
-    margin-left: 5%;
+    margin-left: 7%;
     
 }
 
@@ -248,4 +318,114 @@ body {
     margin-left: 2%;
     margin-right: 18;
     margin-top: 2%;
+}
+
+.img-ferra {
+    text-align: center;
+}
+
+.img-ferra p {
+    margin: 80px;
+}
+.img-ferra img {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.p-unif {
+    margin-left: 90px;
+    margin-bottom: 70px;
+}
+
+.ol-unif {
+    margin-left: 80px;
+}
+
+.botao1{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.botao1 a {
+    text-decoration: none;
+}
+
+.btn-primary{
+    padding: 8px 100px;
+    color: #F2F1F1;
+    background: #28703C;
+    border: 2px solid #28703C;
+    text-align: center;
+    user-select: none;
+    cursor: pointer;
+    justify-content: center;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 100px;
+    height: 110px;
+    border-radius: 15px;
+    padding-top: 40px;
+    font-size: 20px;
+    }
+
+.apps {
+    display: inline-block ;
+}
+
+.apps img {
+    width: 250px;
+    margin: 30px;
+}
+
+.eventos {
+    margin-top: 250px;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+}
+
+.container-card{
+    margin-left: 50px;
+    border: 1px solid #28703C;
+    border-radius: 10px;
+    background-color: #28703C;
+    width: 300px;
+    height: 300px;
+    box-shadow: 1px 1px 5px black ;
+    margin-bottom: 50px;
+}
+
+.container-card p {
+    padding-top: 5px;
+}
+
+.textosuperior-card{
+    font-size: 14px;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+
+.container-card a{
+    text-decoration: none;
+}
+
+.imagem-card{
+    width: 70%;
+    height: 70%;
+}
+.textoinferior-card{
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    margin: 2px;
+}
+
+.container-card img{
+    width: 100%;
+    height: 50%;
 }
