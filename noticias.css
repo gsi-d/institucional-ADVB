@@ -8,6 +8,10 @@
 body{
     padding-bottom: 30vh;
     position: relative;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
 }
 
 h1{
@@ -86,6 +90,8 @@ main{
     text-align: center;
     margin: 5px;
 }
+
+
 /*Fim main*/
 
 
