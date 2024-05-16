@@ -84,6 +84,7 @@ main{
     margin: 1vh 0vh;
     text-align: start;
 }
+
 .textoinferior-card-main{
     color: black;
     font-size: 12px;
@@ -148,4 +149,19 @@ button{
 
 .section-card{
     margin-bottom: 5vh;
+}
+
+.section-card:hover{
+    margin-bottom: 5vh;
+    transition: 0.2s ease;
+    transform: scale(1.1);
+}
+
+.btn-saiba-mais:hover{
+    background-color: #337748;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s ease;
+    transform: scale(1.1);
 }
