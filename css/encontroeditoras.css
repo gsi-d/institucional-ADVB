@@ -6,7 +6,9 @@
     zoom: 100%;
 }
 
+
 /*Início main*/
+
 h1{
     color:#0c5c06ba;
     font-weight: 600;
@@ -40,10 +42,10 @@ h4{
 }
 
 .btn-3:hover {
-    background: #0e9c01;
-    transition: 0.5s;
+    background:#0e9c01;
     color: #fff;
     font-style: bold;
+    transition: 0.5s;
 }
 
 .divider-outros-eventos{
@@ -70,6 +72,18 @@ main{
     margin-top: 30px;
 }
 
+.programacao{
+    margin-top: 30px;
+}
+
+.atencao{
+    margin-top: 30px;
+}
+
+.container-programacao{
+    display: flex;
+}
+
 .cards{
     display: flex;
     justify-content: center;
@@ -78,7 +92,6 @@ main{
 .geral{
     width: 100%;
 }
-
 .textosuperior-card-main{
     font-size: 14px;
     padding: 25px;
