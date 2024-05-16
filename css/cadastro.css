@@ -1,0 +1,48 @@
+
+#formulario {
+    text-align: left;
+    align-items: center;
+    display: block;
+    width: 100%;
+    margin-top: 10%;
+    height: 80%;
+}
+
+#formulario label {
+    line-height: 50px;
+    text-align:center;
+    color:#fff;
+}
+
+#formulario input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh;
+    margin-top: 50px;
+}
+
+#formulario .botao {
+    cursor: pointer;
+    color: #43995c;
+    background-color: white;
+    padding: 1%;
+    font-size: larger;
+    border-bottom-color:#43995C;
+    border: 1px solid white;
+    border-radius: 4px;
+    flex: 5;
+    margin-top: 10px;
+    width: 20%;
+}
+#formulario .botao:hover {
+    background-color: #265935;
+}
