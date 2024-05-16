@@ -111,56 +111,9 @@ body {
 }.btn-ferra {
     font-size: 30px;
     color: #28703C;
-}.green-box {
-    background-color: #28703C;
-    width: 630px;
-    height: 200px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: 20px;
-    color: #ffffff;
-    position: absolute; 
-    top: 40%; 
-    left: 50%; 
-    transform: translate(-50%, -50%);
-    border-radius: 10px;
-}.volunt-p {
-    font-size: 40px;
-    margin: 110px;
-    font-weight: bold;
-    margin-top: 90px;
 }
-.elemento {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.elemento a {
-    text-align: center;
-    color: #fff;
-}
-.btn-1 {
-    border: none;
-    color: #fff;
-    justify-content: center;
-    font-size: 30px;
-    text-align: center;
-    background-color: #28703C;
-    width: 500px;
-    height: 100px;
-    position: absolute; 
-    top: 80%; 
-    left: 50%; 
-    transform: translate(-50%, -50%);
-    border-radius: 10px;
-    font-weight: bold;
-}
-.btn-1:hover {
-    background-color: #3D8551;
-    transition: 0.5s;
-}
+
+
 h1{
     color: #265935;
 }h2{
