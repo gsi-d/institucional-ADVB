@@ -19,7 +19,6 @@ body {
     background-color: #28703C;
     float: left;
     width: 100%;
-    margin-top: 6%;
     position: fixed;
     bottom: 0;
 }* {
@@ -392,12 +391,9 @@ p{
 
 .container-card{
     margin-left: 50px;
-    border: 1px solid #28703C;
     border-radius: 10px;
-    background-color: #28703C;
     width: 300px;
     height: 300px;
-    box-shadow: 1px 1px 5px black ;
     margin-bottom: 50px;
 }
 
