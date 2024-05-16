@@ -7,7 +7,6 @@
 /*Início main*/
 
 body{
-    padding-bottom: 30vh;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -107,7 +106,7 @@ main{
 
 .data-card{
     display: flex;
-    margin: 1vw 0vw 0vw 2vw;
+    margin: 15px 0vw 0vw 2vw;
     color: black;
     justify-content: center;
 }
@@ -120,16 +119,17 @@ main{
 }
 
 .img-calendario{
-    width: 1.5vw;
-    height: 7vh;
-    margin-top: 4px;
-    margin-right: 9px;
+    width: 1vw;
+    height: 4vh;
+    margin-top: 6px;
+    margin-right: 5px;
+    margin-left: 10px;
 }
 
 .img-message{
     width: 1vw;
     height: 4vh;
-    margin-top: 0.9vh;
+    margin-top: 6px;
     margin-right: 5px;
     margin-left: 10px;
 }
@@ -143,4 +143,8 @@ button{
     border-width: 1px;
     height: 3vh;
     min-width: 70px;
+}
+
+.section-card{
+    margin-bottom: 5vh;
 }

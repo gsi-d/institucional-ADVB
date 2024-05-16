@@ -19,7 +19,8 @@ body {
     background-color: #28703C;
     float: left;
     width: 100%;
-    position: fixed;
+    position: relative;
+    left: 0;
     bottom: 0;
 }* {
     box-sizing: border-box;
